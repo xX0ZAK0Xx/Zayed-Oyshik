@@ -560,12 +560,14 @@ h3.my-profession{
     margin-bottom: 2rem;
 }
 .portfolio .portfolio-item-inner{
+    height: 200px;
     border: 0.4rem solid var(--bg-black-100);
     border-radius: 0.66rem;
     overflow: hidden;
     cursor: pointer;
 }
 .portfolio .portfolio-item-inner .portfolio-img img{
+    object-fit:cover;
     width: 100%;
     display: block;
 }
